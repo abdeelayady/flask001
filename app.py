@@ -13,7 +13,7 @@ def servicios():
 
 @app.route('/contacto')
 def contacto():
-        return render_template('contacto.html')
+        return render_template('base.html')
 
 if __name__ == '__main__':
         app.run(debug=True)
